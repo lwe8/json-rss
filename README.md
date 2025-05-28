@@ -1,2 +1,2 @@
 # json-rss
-JSON to ree
+JSON to Rss

@@ -1,0 +1,37 @@
+{
+  "name": "@lwe8/json-rss",
+  "version": "0.1.0",
+  "description": "JSON to Rss",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "check": "biome check src --write",
+    "format": "biome format src --write",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwe8/json-rss.git"
+  },
+  "keywords": [],
+  "author": "<phothinmg@disroot.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lwe8/json-rss/issues"
+  },
+  "homepage": "https://github.com/lwe8/json-rss#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.15.23",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
